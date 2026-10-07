@@ -1,0 +1,12 @@
+{
+  "name": "myheal-qa-test",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser electron",
+    "cy:run:edge": "cypress run --browser edge"
+  },
+  "devDependencies": {
+    "cypress": "16.1.1"
+  }
+}

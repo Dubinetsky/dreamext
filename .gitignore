@@ -1,0 +1,34 @@
+# Залежності
+node_modules/
+
+# Артефакти, які генерує Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Локальні матеріали тестування
+/*.jpg
+/*.jpeg
+/*.png
+
+# Чернетки та сирі робочі логи
+/log.raw.md
+/log.md
+
+# Runtime / debug logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Файли середовища
+.env
+.env.*
+!.env.example
+
+# Coverage
+coverage/
+
+# Системні файли
+.DS_Store
+Thumbs.db
